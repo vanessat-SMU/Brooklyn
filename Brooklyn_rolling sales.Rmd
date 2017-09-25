@@ -1,0 +1,19 @@
+---
+title: "Rolling Sales"
+author: "Vanessa Torres"
+date: "9/24/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Introduction
+This R Markdown document is about Brooklyn's rolling sales.
+```{r}
+load("~/RollingHousingSalesforNYC/Brooklyn/.RData")
+```
+```{r bk}
+summary(bk)
+```
+
